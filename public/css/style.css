@@ -1,0 +1,93 @@
+.logo-img {
+    width: 70px;
+}
+.section {
+    padding-top: 1rem;
+    padding-bottom: 0;
+}
+footer.page-footer {
+    padding-top: 0;
+    margin-top: 100px;
+}
+ul.side-nav.fixed li a {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 59px;
+    height: 60px;
+    padding-left: 30px;
+}
+ul.side-nav.fixed li {
+    height: 60px;
+    padding: 0;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+#logo-container {
+    padding: 0;
+}
+.logout-icon {
+    font-size: 2.3rem !important;
+    color: #fff;
+    padding-top: 20px;
+}
+.logout-icon:hover {
+    opacity: 0.5;
+}
+#index-banner .container {
+    width: 100% !important;
+}
+h4.header  {
+    margin-left: 20px;
+}
+.select-wrapper + label {
+    font-size: 1rem !important;
+}
+input[type=text]:disabled, input[type=text][readonly="readonly"], input[type=password]:disabled, input[type=password][readonly="readonly"], input[type=email]:disabled, input[type=email][readonly="readonly"], input[type=url]:disabled, input[type=url][readonly="readonly"], input[type=time]:disabled, input[type=time][readonly="readonly"], input[type=date]:disabled, input[type=date][readonly="readonly"], input[type=datetime-local]:disabled, input[type=datetime-local][readonly="readonly"], input[type=tel]:disabled, input[type=tel][readonly="readonly"], input[type=number]:disabled, input[type=number][readonly="readonly"], input[type=search]:disabled, input[type=search][readonly="readonly"], textarea.materialize-textarea:disabled, textarea.materialize-textarea[readonly="readonly"] {
+    color: rgba(0, 0, 0, 1);
+    border-bottom: 1px dotted rgba(0, 0, 0, 1);
+}
+input[type=text]:disabled + label, input[type=text][readonly="readonly"] + label, input[type=password]:disabled + label, input[type=password][readonly="readonly"] + label, input[type=email]:disabled + label, input[type=email][readonly="readonly"] + label, input[type=url]:disabled + label, input[type=url][readonly="readonly"] + label, input[type=time]:disabled + label, input[type=time][readonly="readonly"] + label, input[type=date]:disabled + label, input[type=date][readonly="readonly"] + label, input[type=datetime-local]:disabled + label, input[type=datetime-local][readonly="readonly"] + label, input[type=tel]:disabled + label, input[type=tel][readonly="readonly"] + label, input[type=number]:disabled + label, input[type=number][readonly="readonly"] + label, input[type=search]:disabled + label, input[type=search][readonly="readonly"] + label, textarea.materialize-textarea:disabled + label, textarea.materialize-textarea[readonly="readonly"] + label {
+    color: rgba(0, 0, 0, 1);
+}
+select:disabled {
+    color: rgba(0, 0, 0, 1);
+}
+[type="checkbox"]:checked:disabled + label:before {
+    border-right: 2px solid rgba(0, 0, 0, 1) !important;
+    border-bottom: 2px solid rgba(0, 0, 0, 1) !important;
+}
+.select-wrapper input.select-dropdown:disabled {
+    color: rgba(0, 0, 0, 1);
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+.label-dis {
+    color: rgba(0, 0, 0, 1) !important;
+}
+#index-banner {
+    background-color: #455a64;
+}
+footer.page-footer {
+    background-color: #455a64;
+}
+.btn, .btn-large {
+    background-color: #03a9f4 ;
+}
+.header {
+    color: #455a64;
+}
+.pay-btn {
+    background-color: #ee6e73;
+}
+.print-btn {
+    background-color: #455a64;
+}
